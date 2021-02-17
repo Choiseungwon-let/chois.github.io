@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>회원 등록</title>
+    </head>
+    <style>
+        table {
+            table-layout: fixed;
+            width: 750px;
+            border-collapse: collapse;
+            border: 2px solid purple;
+        }
+        th {
+            padding: 5px;
+            text-align: center;
+            width: 150px;
+        }
+        td {
+            padding: 10px;
+        }
+        .container {
+            text-align: center;
+            width: 750px;
+            padding-top: 10px;
+        }
+        #btn {
+            font-size: 25px;
+        }
+
+        h1 {
+            border-bottom: 3px solid purple;
+        }
+    </style>
+    <body>
+        <h1>회원 등록</h1>
+        <table border="1">
+            <tr>
+                <th>성명</th>
+                <td><input type="text" /></td>
+            </tr>
+            <tr>
+                <th>성별</th>
+                <td><input type="checkbox" />남 <input type="checkbox" />녀</td>
+            </tr>
+            <tr>
+                <th>생년월일</th>
+                <td><input type="text" /></td>
+            </tr>
+            <tr>
+                <th>전화번호</th>
+                <td><input type="text" /></td>
+            </tr>
+            <tr>
+                <th>주소</th>
+                <td>
+                    <input type="text" size="10" />
+                    <input type="text" />
+                    <img
+                        src="./images/search-flat.png" width="21px" />
+                    <input type="text" />
+                </td>
+            </tr>
+        </table>
+        <div class="container">
+            <button id="btn">저장</button>
+            <button id="btn">취소</button>
+        </div>
+    </body>
+</html>
